@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements
         String token = FirebaseInstanceId.getInstance().getToken();
         String msg = getString(R.string.message_token_format, token);
         Log.d(LOG_TAG, msg);
+        // dBWyAOhGtsg:APA91bGufsYTi40W3KCO_XSHut_5OneY9XmxTpKUYIN-dBMV1vcLyKUQne7DayAljdkAguyPWZSFNovRuj5kPDpJsoyLqROMwChtMpEq7YMy1_6yxXEsQhUwaWFaZX1S5EYOqlM6h4GQ
 
     }
 
